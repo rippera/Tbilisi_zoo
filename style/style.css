@@ -661,7 +661,7 @@ a {
   margin-top: 40px;
   background: #45eba5;
   border: none;
-  outline: none;
+  outline: none !important;
   padding: 20px;
   width: 190px;
   font-size: 20px;
@@ -706,6 +706,13 @@ a {
 
 .menu__arrow {
   margin: 0 5px; }
+
+#innerMenu {
+  -webkit-box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75); }
+
+#innerMenus {
+  padding: 20px 0; }
 
 .news-section {
   padding: 40px 0; }

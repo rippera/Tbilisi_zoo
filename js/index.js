@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $('.nav-burger').click(function(){
         $('.nav').toggleClass('nav-active');
@@ -48,23 +49,5 @@ lightbox.option({
     'wrapAround': true
 });
 
-let btnItems = document.querySelectorAll('.money-box .money');
-let btnBox   = document.querySelector('.money-box');
 
-btnBox.addEventListener('click',function (e) {
-    btnItems.forEach(function (el) {
-        if(el.classList.contains('money-active')){
-            el.classList.remove('money-active');
-        }
-        let toBeActive = e.target;
-        let parent     = toBeActive.parentElement;
-        parent.classList.add('money-active');
-        if(document.getElementById('helpBox').classList.contains('money-active')){
-            document.getElementById('helpBox').classList.remove('money-active');
-
-        }else if(document.getElementById('moneyBox').classList.contains('money-active')){
-            document.getElementById('moneyBox').classList.remove('money-active');
-        }
-    })
-});
 
