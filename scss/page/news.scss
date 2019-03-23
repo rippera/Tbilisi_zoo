@@ -1,0 +1,136 @@
+.news-section{
+    padding: 40px 0;
+}
+.news-wrapper{
+    justify-content: space-between;
+}
+
+.globe{
+    margin-right: 5px;
+}
+.news-img{
+    width: 50%;
+}
+.news-boxs{
+    margin-bottom: 20px;
+    &:last-child{
+       margin-bottom: 0px; 
+    }
+}
+.news-title-box{
+    width: 75%;
+    box-shadow: 5px 10px 18px #888888;
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    background: $White;
+    padding: 10px;
+    word-break: break-word
+}
+.news-h1{
+    font-family: $Dejavusans;
+    font-size: 16px;
+    color: $Black;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.news-h2{
+    font-family: $Dejavusans;
+    font-size: 12px;
+    color: $Black-2;
+    margin-bottom: 10px;
+}
+.news-p{
+    font-family: $Dejavusans;
+    font-size: 12px;
+    color: $Black;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+.read-more{
+    font-family: $Dejavusans;
+    font-size: 14px;
+    color: $Green-2;
+    outline: none;
+    border: none;
+    background: transparent;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: all .3s linear;
+    &:hover{
+        text-decoration: underline;
+        color: $Green-1;
+    }
+}
+
+
+.fillter-box{
+    // width: 401px;
+    // height: 370px;
+    background: $White;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+
+.fillter-search{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid $White;
+    width: 92%;
+    padding: 15px;
+    margin: 10px;
+    font-family: $Dejavusanscaps;
+    font-size: 16px;
+    color: $White;
+    &::placeholder{
+        font-family: $Dejavusanscaps;
+        font-size: 16px;
+        color: $White;
+    }
+}
+.search-box{
+    width: 100%;
+    height: 70px;
+    background: $Green-1;
+    opacity: 0.6;
+}
+
+
+.fillter-icon{
+    position: absolute;
+    top: 20px;
+    right: 29px;
+    font-size: 26px;
+    color: $White;
+    cursor: pointer;
+}
+.fillter-tag{
+    font-family: $Dejavusanscaps;
+    font-size: 26px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.fillter-btns{
+    padding-left: 15px;
+}
+.fillter-btn{
+    font-family: $Dejavusanscaps;
+    font-size: 18px;
+    color: $White;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 15px;
+    background: $Green-1;
+    margin: 0 10px 10px 10px;
+    opacity: 0.6;
+    transition: all .3s linear;
+    cursor: pointer;
+    &:hover{
+        opacity: 1;
+    }
+}

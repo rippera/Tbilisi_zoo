@@ -1,0 +1,45 @@
+.info-section{
+    padding: 40px 0;
+    margin-bottom: 85px;
+}
+.info-wrapper{
+    position: absolute;
+    top: -215px;
+    z-index: 15;
+    left: 30px;
+}
+.info-boxs{
+    width: 700px;
+}
+.secend-box{
+    height: 292px; // 
+}
+
+.info-box{
+    width: 100%;
+    // width: 700px;
+    // height: 300px;
+    background: $White;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.info-logo{
+    font-size: 42px;
+    color: $Green-2;
+    margin-bottom: 15px;
+}
+.info-h1{
+    font-size: 24px;
+    color: $Green-2;
+    margin-bottom: 10px;
+    font-family: $Dejavusanscaps;
+}
+.info-li{
+    font-size: 16px;
+    color: $Black-1;
+    margin-bottom: 10px;
+    font-family: $Dejavusans;
+    line-height: 1.3;
+}

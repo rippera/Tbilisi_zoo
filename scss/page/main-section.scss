@@ -1,0 +1,34 @@
+.main-section{
+    background-image: url(../img/bg-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+    // z-index: 12;
+}
+
+
+// circle box
+
+.main-circle-box{
+    width: em(300);
+    height: em(300);
+    // height: 100%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 225px;
+    margin-top: 40px;
+}
+.circle-title-h1{
+    font-size: 40px;
+    text-align: center;
+    color: $White;
+    padding: 140px 0;
+    text-transform: uppercase;
+    font-family: $Dejavusanscaps;
+    text-shadow: 1px 2px 1px #000000;
+    text-transform: uppercase;
+}
+.nopaddingg{
+    padding: 0px;
+}

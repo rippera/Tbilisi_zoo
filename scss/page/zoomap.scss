@@ -1,0 +1,44 @@
+.zoo__map{
+    width: 100%;
+}
+.guest_wrapper{
+    padding: 30px 0;
+}
+
+.search__cat__form{
+    background: $Green-4;
+    padding: 15px;
+    box-shadow: 2px 2px 10px 0px #b4b4b4;
+}
+.cat__title{
+    font-family: $Dejavusanscaps;
+    font-size: 24px;
+    color: $White;
+    border-bottom: 1px solid $White;
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
+.cat__li{
+    font-family: $Dejavusanscaps;
+    font-size: 16px;
+    color: $White;
+    padding: 8px 0;
+    transition: all .3s linear;
+    position: relative;
+    &::after{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f105";
+        position: absolute;
+        left: 0;
+        top: 6px;
+        opacity: 0;
+        transition: all .3s linear;
+    }
+    &:hover{
+        padding-left: 20px;
+    }
+}
+.cat__li:hover::after{
+    opacity: 1;
+}

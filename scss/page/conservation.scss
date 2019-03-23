@@ -1,0 +1,54 @@
+.conservation-section{
+    padding: 40px 0;
+}
+.conservation-h1{
+    font-family: $Dejavusanscaps;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 400;
+    // font-weight: bold;
+    margin-bottom: 30px;
+    color: $Black;
+    padding-left: 5px;
+    opacity: 0.7;
+    &.bg-color{
+        content: '';
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background: rgba(69, 235, 165, 0.3);
+        line-height: 2.5;
+        margin-left: 10px;
+    }
+}
+.conservation-p{
+    font-family: $Dejavusanscaps;
+    font-size: 18px;
+    color: $Black;
+    line-height: 1.3;
+}
+.conservation-box:first-child{
+    margin-bottom: 40px;
+}
+.cons-btn{
+    margin-top: 40px;
+    background: $Green-1;
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 190px;
+    font-size: 20px;
+    font-family: $Dejavusanscaps;
+    color: $White;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.heart-icon{
+    font-size: 32px;
+    margin-right: 15px;
+    color: $White;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}

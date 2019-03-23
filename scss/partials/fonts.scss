@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'BPG_DejaVuSansCaps';
+    src: url('../fonts/dejavusanscaps/BPG_DejaVuSansCaps.eot');
+    src: url('../fonts/dejavusanscaps/BPG_DejaVuSansCaps.eot') format('embedded-opentype'),
+         url('../fonts/dejavusanscaps/BPG_DejaVuSansCaps.woff2') format('woff2'),
+         url('../fonts/dejavusanscaps/BPG_DejaVuSansCaps.woff') format('woff'),
+         url('../fonts/dejavusanscaps/BPG_DejaVuSansCaps.ttf') format('truetype'),
+         url('../fonts/dejavusanscaps/BPG_DejaVuSansCaps.svg#BPG_DejaVuSansCaps') format('svg');
+}
+@font-face {
+    font-family: '!BPG! DejaVu Sans';
+    src: url('../fonts/dejavusans/BPGDejaVuSans.eot');
+    src: url('../fonts/dejavusans/BPGDejaVuSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dejavusans/BPGDejaVuSans.woff2') format('woff2'),
+        url('../fonts/dejavusans/BPGDejaVuSans.woff') format('woff'),
+        url('../fonts/dejavusans/BPGDejaVuSans.ttf') format('truetype'),
+        url('../fonts/dejavusans/BPGDejaVuSans.svg#!BPG!DejaVuSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*DISPLAY FLEX*/
+
+.d-flex{
+	display: flex;
+}
+.align-items{
+	align-items: center;
+	justify-content: center;
+}
+.jc-space-between{
+	align-items: center;
+	justify-content: space-between;
+}
+.jc-space-around{
+	align-items: center;
+	justify-content: space-around;
+}
+.d-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.d-row{
+	display: flex;
+	flex-direction: row;
+	flex-direction: column;
+}
+.df-Wcol{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/*DISPLAY FLEX*/
+
+/*MAIN BASSE CLASS*/
+
+.inline-block{
+	display: inline-block;
+	vertical-align: middle;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+	position: absolute;
+}
+
+.header-fixed{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	// background: black;  /* background for change */
+}
+.show{
+    display: block !important;
+}
+.hidden{
+    display: none;
+}
+
+.money-active{
+	background: $Green-3;
+	color: white;
+	border-color: $Green-3;
+}
+.cancel-btn,
+.nav-burger{
+	display: none;
+	font-size: 36px;
+	color: $Black-1;
+	&:hover{
+		color: $Green-2;
+	}
+}
+
+.up{
+	animation: uP 1s linear;
+}
+.down{
+	animation: uP 1s linear;
+}
+@keyframes uP{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@keyframes dowN{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}

@@ -1,0 +1,75 @@
+.animal-slider{
+    padding: 40px;
+}
+.owl-carousel{
+    position: relative !important;
+    height: 300px !important;
+    // z-index: 12 !important;
+    width: 100% !important;
+    margin: 40px 0;
+}
+.owl-nav .owl-prev span{
+    position: absolute !important;
+    color: $Black;
+    top: 25px !important;
+    left: -35px !important;
+    font-size: 100px;
+    transition: all .3s linear;
+    cursor: pointer;
+    &:hover{
+        color: $Green-2;
+    }
+}
+.owl-nav .owl-next span{
+    position: absolute !important;
+    color: $Black;
+    top: 25px !important;
+    right: -35px !important;
+    font-size: 100px;
+    transition: all .3s linear;
+    cursor: pointer;
+    &:hover{
+        color: $Green-2;
+    }
+}
+
+.slider-img-box{
+    img{
+        border-radius: 50%;
+        object-fit: cover;
+        height: 200px;
+    }
+}
+.active{
+    background: transparent !important; 
+    color: white;
+    border-color: transparent !important;
+}
+
+.animal-name{
+    text-align: center;
+    font-size: 22px;
+    font-family: $Dejavusanscaps;
+    color: $Black !important;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.adopt{
+    border-radius: 10px;
+    height: 100%;
+    background: $Green-2;
+    border: none;
+    outline: none !important;
+    padding: 13px 0;
+    width: 140px;
+    font-size: 16px;
+    font-family: $Dejavusanscaps;
+    color: $White;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.adopt-info{
+    text-align: center;
+    margin: auto;
+}
