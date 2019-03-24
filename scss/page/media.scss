@@ -170,6 +170,7 @@
         width: 20px;
         height: 20px;
         font-size: 9px;
+        line-height: 2;
     }
     .news-in-img{
         display: none;
@@ -187,7 +188,6 @@
     }
     .burger-in-search{
         font-size: 22px;
-        // margin-top: 175px;
         margin-bottom: 30px;
     }
     .burger-in-btn{
@@ -222,9 +222,6 @@
     }
     .footer-box{
         font-size: 12px;
-    }
-    .news-menu{
-        display: none;
     }
     .news-in-section{
         padding: 0px;
